@@ -1,5 +1,5 @@
 # Google Auth
-In this tutorial you will learn, how to Google Account Authentication in android studio.
+In this tutorial you will learn, how to Google Account Authentication (Login/Logout) in android studio.
 
 ## Screenshots
 <img src="/img1.png" height="400px"/><img src="/img2.png" height="400px"/>
