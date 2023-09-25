@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".DashboardActivity">
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/layout_red"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="90dp">
+        <LinearLayout
+            android:gravity="center|left"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:paddingLeft="15dp"
+                android:fontFamily="@font/robotoblack"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="27sp"
+                android:text="Account Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tvName_ID"
+                android:fontFamily="@font/robotoblack"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="27sp"
+                android:text="MR. X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/layout_blue"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="90dp">
+        <LinearLayout
+            android:gravity="center|left"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:paddingLeft="15dp"
+                android:fontFamily="@font/robotoblack"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="27sp"
+                android:text="Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tvEmail_ID"
+                android:fontFamily="@font/robotoblack"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="27sp"
+                android:text="someone@mail.com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogOutID"
+        android:background="@drawable/logout_shape"
+        android:textSize="32sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/robotobold"
+        android:textStyle="bold"
+        android:text="Logout"
+        android:layout_marginTop="30dp"
+        android:layout_width="350dp"
+        android:layout_height="70dp"/>
+
+</LinearLayout>
